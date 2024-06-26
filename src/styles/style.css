@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.container {
+  max-width: 1800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 70px;
+  padding-right: 70px;
+  text-align: center;
+}
+.game {
+  background-color: antiquewhite;
+}
+.game__playground {
+  width: 600px;
+  height: 200px;
+  border-bottom: 1px solid brown;
+  margin: auto;
+}
+#cat {
+  position: relative;
+  width: 150px;
+  height: 60px;
+  background: url(../assets/img/cat.png);
+  background-size: contain;
+  top: 180px;
+}
+.jump {
+  animation: jump 0.5s linear ;
+}
+@keyframes jump {
+  0% {
+    top: 150px;
+  }
+  30% {
+    top: 100px;
+  }
+  50% {
+    top: 90px;
+  }
+  80% {
+    top: 130px;
+  }
+  100% {
+    top: 150px;
+  }
+}
+#chair {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background: url(../assets/img/chair.png);
+  background-size: contain;
+  top: 110px;
+  left: 580px;
+  
+}
+.chairMov {
+  animation: chairMov 2s infinite linear ;
+}
+@keyframes chairMov {
+  0% {
+    left: 580px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+@media screen and (width < 500px){
+  .container {
+  max-width: 1800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+.game__playground {
+  width: 300px;
+  height: 200px;
+  border-bottom: 1px solid brown;
+  margin: auto;
+}
+#cat {
+  position: relative;
+  width: 150px;
+  height: 60px;
+  background: url(../assets/img/cat.png);
+  background-size: contain;
+  top: 180px;
+}
+.jump {
+  animation: jump 0.5s linear ;
+}
+@keyframes jump {
+  0% {
+    top: 150px;
+  }
+  30% {
+    top: 100px;
+  }
+  50% {
+    top: 90px;
+  }
+  80% {
+    top: 130px;
+  }
+  100% {
+    top: 150px;
+  }
+}
+#chair {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background: url(../assets/img/chair.png);
+  background-size: contain;
+  top: 110px;
+  left: 580px;
+  
+}
+.chairMov {
+  animation: chairMov 2s infinite linear ;
+}
+@keyframes chairMov {
+  0% {
+    left: 580px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+}
