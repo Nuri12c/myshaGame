@@ -99,7 +99,6 @@ ul {
   position: relative;
   width: 150px;
   height: 60px;
-  background: url(../assets/img/cat.png);
   background-size: contain;
   top: 180px;
 }
