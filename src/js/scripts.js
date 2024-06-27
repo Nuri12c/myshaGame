@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
     setTimeout (function() {
       cat.classList.remove('jump')
-    }, 500)
+    }, 700)
   }
   
 });
