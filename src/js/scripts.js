@@ -27,7 +27,7 @@ let isAlive = setInterval( function() {
   let catTop = parseInt(window.getComputedStyle(cat).getPropertyValue("top"));
   let chairLeft = parseInt(window.getComputedStyle(chair).getPropertyValue("left"));
 
-  if (chairLeft < 50 && chairLeft > 0 && catTop >= 130) {
+  if (chairLeft < 50 && chairLeft > 0 && catTop >= 330) {
     alert("GAME OVER");
     chair.classList.remove('chairMov')
     setTimeout(function () {
