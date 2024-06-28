@@ -121,16 +121,16 @@ ul {
 }
 @keyframes jump {
   0% {
-    top: 340px;
+    top: 330px;
   }
   30% {
-    top: 290px;
+    top: 270px;
   }
   50% {
-    top: 290px;
+    top: 260px;
   }
   80% {
-    top: 310px;
+    top: 300px;
   }
   100% {
     top: 350px;
@@ -139,7 +139,7 @@ ul {
 #chair {
   position: relative;
   width: 100px;
-  height: 100px;
+  height: 90px;
   background: url(../assets/img/chair.png);
   background-size: contain;
   top: 280px;
