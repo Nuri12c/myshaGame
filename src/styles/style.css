@@ -20,7 +20,7 @@ a {
 .road-right, .road-left {
   position: absolute;
   width: 100%;
-  height: 100px;
+  height: 150px;
   background: url('../assets/img/enhanced.png') repeat-x;
   background-size: contain;
   overflow: hidden;
@@ -54,7 +54,7 @@ ul {
   background-image: url(../assets/img/myCat.gif);
   background-size: contain;
   background-repeat: no-repeat;
-  top: 180px;
+  top: 150px;
 }
 .jump {
   animation: jump 0.6s linear ;
@@ -83,7 +83,7 @@ ul {
   height: 100px;
   background: url(../assets/img/chair.png);
   background-size: contain;
-  top: 110px;
+  top: 80px;
   left: 580px;
   
 }
@@ -99,18 +99,9 @@ ul {
   }
 }
 @media screen and (width < 500px){
-  .container {
-  max-width: 1800px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 10px;
-  padding-right: 10px;
-  text-align: center;
-}
 .game__playground {
-  width: 300px;
+  width: 100%;
   height: 200px;
-  border-bottom: 1px solid brown;
   margin: auto;
 }
 #cat {
@@ -121,23 +112,6 @@ ul {
   top: 180px;
 }
 
-@keyframes jump {
-  0% {
-    top: 150px;
-  }
-  30% {
-    top: 100px;
-  }
-  50% {
-    top: 90px;
-  }
-  80% {
-    top: 130px;
-  }
-  100% {
-    top: 150px;
-  }
-}
 #chair {
   position: relative;
   width: 100px;
@@ -148,15 +122,14 @@ ul {
   left: 580px;
   
 }
-.chairMov {
-  animation: chairMov 2s infinite linear ;
+.road-right, .road-left {
+  position: absolute;
+  width: 100%;
+  height: 90px;
+  background: url('../assets/img/enhanced.png') repeat-x;
+  background-size: cover;
+  overflow: hidden;
+  animation: moveRoadLeft 2s linear infinite;
 }
-@keyframes chairMov {
-  0% {
-    left: 580px;
-  }
-  100% {
-    left: 0px;
-  }
-}
+
 }
