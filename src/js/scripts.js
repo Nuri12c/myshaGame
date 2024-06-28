@@ -10,10 +10,16 @@ document.addEventListener("DOMContentLoaded", () => {
   function jump() {
     if (cat.classList != 'jump') {
       cat.classList.add('jump')
+      cat.style.backgroundImage = "url(../src/assets/img/catJump.png)";
     }
+    setTimeout(function () {
+      cat.style.backgroundImage = "url(../src/assets/img/catJump2.png)";
+    }, 300);
     setTimeout (function() {
       cat.classList.remove('jump')
+      cat.style.backgroundImage = "url(../src/assets/img/myCat.gif)";
     }, 700)
+    
   }
   
 });

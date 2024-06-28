@@ -34,7 +34,7 @@ ul {
   position: relative;
   width: 250px;
   height: 100px;
-  background: url(../assets/img/myCat.gif);
+  background-image: url(../assets/img/myCat.gif);
   background-size: contain;
   background-repeat: no-repeat;
   top: 180px;
@@ -50,10 +50,10 @@ ul {
     top: 100px;
   }
   50% {
-    top: 90px;
+    top: 110px;
   }
   80% {
-    top: 130px;
+    top: 120px;
   }
   100% {
     top: 150px;
@@ -102,9 +102,7 @@ ul {
   background-size: contain;
   top: 180px;
 }
-.jump {
-  animation: jump 0.5s linear ;
-}
+
 @keyframes jump {
   0% {
     top: 150px;
