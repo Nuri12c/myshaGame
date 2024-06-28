@@ -155,5 +155,7 @@ ul {
   overflow: hidden;
   animation: moveRoadLeft 2s linear infinite;
 }
-
+.chairMov {
+  animation: chairMov 2.2s infinite linear ;
+}
 }
